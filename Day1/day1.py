@@ -1,7 +1,9 @@
 #finding 2duplicates
-
-class solution(self,l):
-    def find_duplicates(self,l):
-        return [i for i in l if l.count(i)>1]
+def find_duplicates(l):
+        n=set(l)
+        if len(l)==len(n):
+                return 0
+        else:
+                return 1
     
-solution([1,2,3,3])
+find_duplicates(l=[1,2,3])
