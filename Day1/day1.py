@@ -5,5 +5,5 @@ def find_duplicates(l):
                 return 0
         else:
                 return 1
-    
-find_duplicates(l=[1,2,3])
+     
+find_duplicates(l=[1,2,3,3])
